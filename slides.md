@@ -1,10 +1,10 @@
 # Slide 1
 ## Creative Coding with Generative AI
-### Welcome: “What does code look like?”
-- Watch a one-line program build a maze
-- Treat code as a visual pattern generator
-- Choose “/” or “\” at random; repeat
-- Notice how randomness creates structure over time  
+### Title Slide
+- Zach Muhlbauer & Stefano Morello
+- CUNY AI Lab · New Media Lab · Teaching and Learning Center
+- February 19, 2025 · 4:00 PM
+- Interactive 10 PRINT demonstration  
 
 ---
 
@@ -24,12 +24,13 @@ Stage text:
 ---
 
 # Slide 3
-## Origins (1962–1965)
+## Origins (1962-1965)
 ### Bell Labs + first computer art
 - Place early computer art in Bell Labs era
 - Combine equations with pseudo-random variation
 - Generate order first; introduce disorder gradually
-- Move from plotter output to public exhibitions  
+- Move from plotter output to public exhibitions
+- Click to re-roll the disorder
 
 ---
 
@@ -164,16 +165,18 @@ Stage text:
 - Notice how constraints shape the aesthetic
 
 Stage text:
-- Copy/paste rules:
-- 1) Single HTML with inline CSS+JS
-- 2) Canvas only; no libraries
-- 3) Grid ≥ 100 elements
-- 4) Vary property by distance from center
-- 5) Exactly one randomness source
-- 6) Only 3 colors
-- 7) Fill viewport
-- 8) Animate with requestAnimationFrame
-- Return HTML only
+Copy/paste rules:
+
+1) Single HTML with inline CSS+JS
+2) Canvas only; no libraries
+3) Grid ≥ 100 elements
+4) Vary property by distance from center
+5) Exactly one randomness source
+6) Only 3 colors
+7) Fill viewport
+8) Animate with requestAnimationFrame
+
+Return HTML only
 
 ---
 
@@ -183,7 +186,7 @@ Stage text:
 - Locate Activity 1 near Interpretation
 - Locate Activity 2 between Rules and Interpretation
 - Locate Activity 3 near Rules (then curate)
-- Ask: what changed—rules, randomness, or judgment?
+- Ask: what changed-rules, randomness, or judgment?
 
 ---
 
@@ -210,13 +213,15 @@ Stage text:
 - Slide outline (markdown): slides.md
 - Models (GLM 5 / Kimi K2.5): https://ailab.gc.cuny.edu/models/
 - Full sources list (Appendix D): see GitHub folder link below
-- GitHub markdown link (temporary; update during migration): https://github.com/milwrite/quimbot/tree/main/docs/itp-lab
 
-Citations (quick):
-- 10 PRINT (MIT Press, 2012): https://10print.org/
-- Noll on early generative art: https://ethw.org/First-Hand:The_Beginnings_of_Generative_Art
-- Vera Molnar (V&A): https://www.vam.ac.uk/blog/museum-life/vera-molnar-machine-imaginaire-the-dance-of-hands-and-machine-thinking
-- Xu et al. (2024): https://arxiv.org/html/2402.09750v2
-- Willison (2025): vibe coding + HTML tools (see expanded.md Appendix D)
-- Processing / p5.js: https://processing.org/ and https://p5js.org/
-- CUNY AI Lab: https://ailab.gc.cuny.edu/
+Stage text:
+Sources:
+- 10 PRINT CHR$(205.5+RND(1)); : GOTO 10. MIT Press, 2012. https://10print.org/
+- Goodchild, A. "Early Computer Art in the 50s & 60s." https://www.amygoodchild.com/blog/computer-art-50s-and-60s
+- Noll, A. M. "The Beginnings of Generative Art." https://ethw.org/First-Hand:The_Beginnings_of_Generative_Art
+- V&A Museum. "Vera Molnar: Machine Imaginaire." https://www.vam.ac.uk/blog/museum-life/vera-molnar-machine-imaginaire-the-dance-of-hands-and-machine-thinking
+- Xu, Y. et al. "Reflection in Human–LLM Co-Creation for Creative Coding." arXiv:2402.09750, 2024. https://arxiv.org/html/2402.09750v2
+- Willison, S. "Not all AI-assisted programming is vibe coding." 2025. https://simonwillison.net/2025/Mar/19/vibe-coding/
+- Willison, S. "Useful patterns for building HTML tools with LLMs." 2025. https://simonwillison.net/2025/Dec/10/html-tools/
+- Processing Foundation. https://processing.org/ · p5.js. https://p5js.org/
+- CUNY AI Lab. https://ailab.gc.cuny.edu/ · Sandbox. https://tools.ailab.gc.cuny.edu/
